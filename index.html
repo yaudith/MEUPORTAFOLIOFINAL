@@ -50,7 +50,6 @@
             </ul>
         </div>
     </nav>
-    
     <section class="jumbotron text-center corPrimaria">
         <div class="container">
             <img src="/imagem/IMG-20210319-WA0042 (1).jpg" class="foto-perfil" alt="Responsive image">
@@ -153,24 +152,49 @@
                 </blockquote>
             </div>
         </div>
-    </section>
-
+    </section> 
+    <!-- formulario -->
     <section Id="contato" class="corPrimaria">
         <div class="corPrimaria">
             <div class="container-fluid">
                 <h3 style="padding-top:90px;" class="text-center titulosBrancos">Disponível para oportunidades</h3>
-                <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a
-                        href="mailto:seuemail@hotmail.com">yaudithaguilera22@gmail.com👈</a></h4>
+                        <div class="container">
+                            <div class="div-contata">
+                                <p>Quer entrar em contato comigo?
+                                <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p> 
+                            </div>
+                            <div class="formulario">
+                                <form form action="" name="form">
+                                    <label>NOME:
+                                        <input type="text" id="name" name="name" placeholder="Silvio Santos">
+                                    </label>
+                                    <label for="text">EMAIL:
+                                        <input type="text" id="email" name="email" placeholder="usuario@dominio.com">
+                                    </label>
+                                    <label for="assunto">ASSUNTO:
+                                        <input type="text" id="assunto" name="assunto" placeholder="Lorem ipsum">
+                                    </label>
+                                    <label for="textarea">MENSSAGEM:
+                                        <textarea name="textarea" id="textarea"
+                                            placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit." rows="10"
+                                            cols="50"></textarea>
+                                    </label>
+                                    <button type="submit" class="btn-enviar" id="summit">ENVIAR</button>
+                                </form>
+                                <p id="err"></p>
+                            
+                        </div>
+                </div>
             </div>
-        </div>
-    </section>
-
+        </section>
+            </div>
+            <div>
     <footer class="text-center" style="background-color:#2c3e50;padding:0px; margin:0px">
         <p style="margin:0px;padding-top:15px;padding-bottom:15px;color:white !important">Copyright 2021 - yaudith Aguilera
            
         </p>
     </footer>
-
+    <script src="main.js"></script>
 </body>
 
 </html>
